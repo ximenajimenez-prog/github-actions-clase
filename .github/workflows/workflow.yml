@@ -1,4 +1,4 @@
-name:hola-mundo #clave:nombre  valor: hola-mundo
+name: hola-mundo #clave:nombre  valor: hola-mundo
 on: [push] # clave: on  valor:listan con elementos [push]
 
 jobs: # trabajo o accion que va a realizar la automatizacion
