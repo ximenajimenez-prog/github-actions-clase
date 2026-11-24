@@ -11,7 +11,7 @@ jobs: # trabajo o accion que va a realizar la automatizacion
       - name: configurar python # nombre del paso
         uses: actions/setup-python@v2 # instalamos python en la maquina de github
         with: 
-          python-version: ´3.12´
+          python-version: '3.12'
 
       - name: ejecutar codigo
         run: python ejemplo.py # ejecutamos el codigo de python
